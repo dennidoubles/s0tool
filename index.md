@@ -7,7 +7,15 @@ ESPHome based puls counting tool for Home assistant
 | :--- | :--- |
 | [![last commit time][github-last-commit]][github-master] [![GitHub Activity][commits-shield]][commits] | [![Discord][discord-shield]][discord]  
 |  [![License][license-shield]](LICENSE) [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] | [![Contributors][contributors-shield]][contributors-url] [![GitHub release](https://img.shields.io/github/release/huizebruin/s0tool.svg)](https://GitHub.com/huizebruin/s0tool/releases/)| 
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@6.1.1/dist/web/install-button.js?module"
+></script>
+Flash online je Wemos d1 mini.
 
+<esp-web-install-button
+  manifest="/static/firmware_build/manifest.json"
+></esp-web-install-button>
 
 ![S0tool-print](https://github.com/huizebruin/s0tool/blob/main/s0tool-huizebruin.jpg) 
 ![dashboard](https://github.com/huizebruin/s0tool/blob/main/s0tool-dashboard.jpg)
